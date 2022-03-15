@@ -7,7 +7,7 @@
 ### 1.1.1 电基本振子的辐射 ###
 1. **电基本振子**是一段有高频电流，且带有等值异号电荷的短导线，其直径`d << l`，`（长度）l << λ（波长）`。
 2. 电基本振子在空间所产生的的电磁场可通过**矢量磁位A**求得，矢量磁位A的计算公式为
-   $$\vec{{A}}=\iiint \mu \vec{J} \frac{e^{-jkR}}{4 \pi R}dv' $$
+   $$\vec{{A}}=\iiint\mu\vec{J}\frac{e^{-jkR}}{4\pi R}dv'$$
    式中，$R=\sqrt{(x-x')^2+(y-y')^2+(z-z')^2}$为源点到场点的距离，$(x',y',z')$为源点的坐标，$(x,y,z)$为场点的坐标。
 3. 由电流所产生的的矢量磁位，再通过$\vec{B}=\nabla\times\vec{A}$得
    $$\vec{H}=\frac{1}{\mu}\nabla\times\vec{A}$$
@@ -19,15 +19,13 @@
    采用近似有
    $$\vec{A_x}=\frac{\mu Il}{4\pi r}e^{-jkr}$$
    将$\vec{e_x}=\vec{e_r}\cos\theta-\vec{e_\theta}\sin\theta$带入有
-   $$
-   \left\{
+   $$\left\{
        \begin{aligned}
            A_r=A_z\cos\theta=\frac{\mu Il}{4\pi r}e^{-jkr}\cos\theta\\
             A_\theta=-A_z\sin\theta=-\frac{\mu Il}{4\pi r}e^{-jkr}\sin\theta\\
             A_\varphi = 0
        \end{aligned}
-       \right.
-    $$
+       \right.$$
     将上式带入之前的矢量磁位以及麦克斯韦第一方程，得电基本振子的电磁场为
     $$\left\{
         \begin{aligned}
